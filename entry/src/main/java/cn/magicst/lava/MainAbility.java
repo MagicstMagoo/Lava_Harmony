@@ -1,7 +1,6 @@
-package cn.magicst.lava.harmony;
+package cn.magicst.lava;
 
-import cn.magicst.lava.harmony.slice.MainAbilitySlice;
-//注释
+import cn.magicst.lava.slice.MainAbilitySlice;
 import ohos.aafwk.ability.Ability;
 import ohos.aafwk.content.Intent;
 
@@ -10,6 +9,6 @@ public class MainAbility extends Ability {
     public void onStart(Intent intent) {
         super.onStart(intent);
         super.setMainRoute(MainAbilitySlice.class.getName());
-
     }
+
 }

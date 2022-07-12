@@ -1,4 +1,4 @@
-package cn.magicst.lava.harmony;
+package cn.magicst.lava;
 
 import ohos.aafwk.ability.AbilityPackage;
 

@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "cn.magicst.lava.harmony",
+    "bundleName": "cn.magicst.lava",
     "vendor": "magicst",
     "version": {
       "code": 1000000,
@@ -9,15 +9,11 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "cn.magicst.lava.harmony",
+    "package": "cn.magicst.lava",
     "name": ".MyApplication",
-    "mainAbility": "cn.magicst.lava.harmony.MainAbility",
+    "mainAbility": "cn.magicst.lava.MainAbility",
     "deviceType": [
-      "phone",
-      "tablet",
-      "tv",
-      "wearable",
-      "car"
+      "phone"
     ],
     "distro": {
       "deliveryWithInstall": true,
@@ -39,9 +35,12 @@
         ],
         "orientation": "unspecified",
         "visible": true,
-        "name": "cn.magicst.lava.harmony.MainAbility",
+        "name": "cn.magicst.lava.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
+        "configChanges": [
+          "orientation"
+        ],
         "label": "$string:entry_MainAbility",
         "type": "page",
         "launchType": "standard"

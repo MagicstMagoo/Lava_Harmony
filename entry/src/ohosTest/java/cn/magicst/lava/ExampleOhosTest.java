@@ -1,4 +1,4 @@
-package cn.magicst.lava.harmony;
+package cn.magicst.lava;
 
 import ohos.aafwk.ability.delegation.AbilityDelegatorRegistry;
 import org.junit.Test;
@@ -9,6 +9,6 @@ public class ExampleOhosTest {
     @Test
     public void testBundleName() {
         final String actualBundleName = AbilityDelegatorRegistry.getArguments().getTestBundleName();
-        assertEquals("cn.magicst.lava.harmony", actualBundleName);
+        assertEquals("cn.magicst.lava", actualBundleName);
     }
 }
